@@ -79,6 +79,9 @@ class ISODownloader(QMainWindow):
         self.setWindowTitle("ISO Downloader Pro")
         self.setMinimumSize(800, 600)
         
+        # Imposta l'icona della finestra
+        self.setWindowIcon(QIcon('icon.png'))
+        
         # Crea la barra dei menu
         self.create_menu_bar()
         
